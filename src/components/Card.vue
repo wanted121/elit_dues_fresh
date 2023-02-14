@@ -1,15 +1,15 @@
 <template>
-    <div class="card text-center" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div class="card text-center">
+  <div style="padding: 0%;" class="card-body">
+    <div>
+      <img src="images/res1.png" class="cardimg img-fluid" alt="iphone-mockup" style="width:200px, height:150px"/>
+    </div>
   </div>
 </div>
 </template>
 <seript>
 
-</seript>
+</seript> 
 
 <style>
 
