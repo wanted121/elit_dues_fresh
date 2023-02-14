@@ -21,7 +21,7 @@
             <a class="nav-link" @click="scroll('pricing')" >Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" @click="scroll('cta')">Download</a>
+            <a class="nav-link" @click="scroll('templates')">Templates</a>
           </li>
           <!--
           <li class="nav-item">
@@ -110,40 +110,31 @@
   </section>
 
   <!-- Card -->
-  <section>
-<div class="row">
-  <div class="col-lg-4 col-md-6">
-    <Card/>
-  </div>
-  <div class="col-lg-4 col-md-6">
-    <Card/>
-  </div>
-  <div class="col-lg-4 col-md-6">
-    <Card/>
-  </div>
-  <div class="col-lg-4 col-md-6">
-    <Card/>
-  </div>
-</div>
-
-<div class="row ">
-  <div class="col-lg-4 col-md-6">
-    <Card/>
-  </div>
-  <div class="col-lg-4 col-md-6">
-    <Card/>
-  </div>
-  <div class="col-lg-4 col-md-6">
-    <Card/>
-  </div>
-  <div class="col-lg-4 col-md-6">
-    <Card/>
-  </div>
-</div>
-
+  <section id="templates">
+    <div class="row">
+      <div class="col-lg-4 featuresCard">
+        <Card />
+      </div>
+      <div class="col-lg-4 featuresCard">
+        <Card/>
+      </div>
+      <div class="col-lg-4 featuresCard">
+        <Card/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 featuresCard">
+        <Card/>
+      </div>
+      <div class="col-lg-4 featuresCard">
+        <Card/>
+      </div>
+      <div class="col-lg-4 featuresCard">
+        <Card/>
+      </div>
+    </div>
   </section>
   
-
 
   <section id="press">
     <img class="pres-logo" src="images/tnw.png" alt="tnw-logo">
