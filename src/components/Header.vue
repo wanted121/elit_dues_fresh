@@ -109,7 +109,41 @@
 
   </section>
 
-  <!-- Press -->
+  <!-- Card -->
+  <section>
+<div class="row">
+  <div class="col-lg-4 col-md-6">
+    <Card/>
+  </div>
+  <div class="col-lg-4 col-md-6">
+    <Card/>
+  </div>
+  <div class="col-lg-4 col-md-6">
+    <Card/>
+  </div>
+  <div class="col-lg-4 col-md-6">
+    <Card/>
+  </div>
+</div>
+
+<div class="row ">
+  <div class="col-lg-4 col-md-6">
+    <Card/>
+  </div>
+  <div class="col-lg-4 col-md-6">
+    <Card/>
+  </div>
+  <div class="col-lg-4 col-md-6">
+    <Card/>
+  </div>
+  <div class="col-lg-4 col-md-6">
+    <Card/>
+  </div>
+</div>
+
+  </section>
+  
+
 
   <section id="press">
     <img class="pres-logo" src="images/tnw.png" alt="tnw-logo">
@@ -196,9 +230,13 @@
   </template>
   
   <script>
-  
+  import Card from './Card.vue'
   export default {
     name: 'Header',
+    components: {
+   // HelloWorld,
+    Card
+  },
   
     data: () => {
   },
